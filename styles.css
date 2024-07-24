@@ -1,0 +1,89 @@
+body {
+    background: gray;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 917px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 13%;
+}
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.card-1,.card-2,.card-3 {
+    padding: 30px;
+    text-align: left;
+    font-size: 15px;
+}
+h1 {
+    margin-left: 8%;
+}
+.card-1 svg, .card-2 svg, .card-3 svg{
+    margin-left: 8%;
+}
+
+.card-1 p, .card-2 p, .card-3 p {
+    margin-top: 20%;
+    margin-left: 8%;
+}
+
+
+.card-1 button,.card-2 button, .card-3 button {
+    margin-top: 40%;
+    margin-left: 8%;
+}
+
+button {
+    color: hsl(31, 77%, 52%);
+    height: 50px;
+    width: 150px;
+    border-style: none;
+    border-radius: 50px;
+    font-family: Inter;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.card-2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+}
+.card-1 button:hover{
+    border: 3px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.card-2 button:hover{
+    border: 3px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.card-3 button:hover{
+    border: 3px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
